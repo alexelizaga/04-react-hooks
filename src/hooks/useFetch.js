@@ -20,13 +20,18 @@ export const useFetch = ( url ) => {
     fetch(url)
       .then( resp => resp.json())
       .then( data => {
-
         isMounted.current && setState({
           data,
           loading: false,
           error: null,
         });
-        
+      })
+      .catch( () => {
+        isMounted.current && setState({
+          data: null,
+          loading: false,
+          error: 'No se pudo cargar la info',
+        });
       });
   }, [url])
   
