@@ -17,15 +17,21 @@ export const MultipleCustomHooks = () => {
       {
         loading
         ? (
-          <div className='alert alert-info text-center'>
+          <div
+            data-testid='MultipleCustomHooksLoading'
+            className='alert alert-info text-center'
+          >
             Loading...
           </div>
         ) : (  
           <figure className='text-end'>
             <blockquote className='blockquote'>
-              <p>{ quote }</p>
+              <p data-testid='MultipleCustomHooksQuote'>{ quote }</p>
             </blockquote>
-            <figcaption className='blockquote-footer'>
+            <figcaption
+              data-testid='MultipleCustomHooksAuthor'
+              className='blockquote-footer'
+            >
               { author }
             </figcaption>
           </figure>
@@ -36,7 +42,7 @@ export const MultipleCustomHooks = () => {
         className='btn btn-primary'
         onClick={increment}
       >
-        Next guote
+        Next quote
       </button>
 
 
