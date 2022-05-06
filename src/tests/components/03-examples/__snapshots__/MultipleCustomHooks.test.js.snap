@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Test MultipleCustomHooks should render correctly 1`] = `
-<div>
+<div
+  data-testid="MultipleCustomHooks"
+>
   <h1>
     Breaking Bad Quotes
   </h1>

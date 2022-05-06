@@ -14,6 +14,7 @@ export const RealExampleRef = () => {
       }
 
       <button 
+        data-testid='RealExampleRefBtn'
         className='btn btn-primary mt-5'
         onClick={() => setShow(!show)}
       >

@@ -10,7 +10,7 @@ export const MultipleCustomHooks = () => {
   const { author, quote } = !!data && data[0];
 
   return (
-    <div>
+    <div data-testid='MultipleCustomHooks'>
       <h1>Breaking Bad Quotes</h1>
       <hr />
 
