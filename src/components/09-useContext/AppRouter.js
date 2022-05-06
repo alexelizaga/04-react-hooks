@@ -6,10 +6,10 @@ import {
   Navigate
 } from 'react-router-dom';
 
-import { AboutScreen } from './AboutScreen';
 import { NavBar } from './components/NavBar';
-import { HomeScreen } from './HomeScreen';
-import { LoginScreen } from './LoginScreen';
+import { HomeScreen } from './screens/HomeScreen';
+import { LoginScreen } from './screens/LoginScreen';
+import { AboutScreen } from './screens/AboutScreen';
 
 export const AppRouter = () => {
   return (
