@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <TodoListItem /> should render correctly 1`] = `
+<li
+  className="list-group-item"
+>
+  <p
+    className="false"
+    data-testid="TodoListItemDesc"
+    onClick={[Function]}
+  >
+    1
+    . 
+    Aprender React
+  </p>
+  <button
+    className="btn btn-danger"
+    data-testid="TodoListItemBtn"
+    onClick={[Function]}
+  >
+    Borrar
+  </button>
+</li>
+`;

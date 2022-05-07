@@ -5,12 +5,14 @@ export const TodoListItem = ({ index, todo, handleToggle, handleDelete }) => {
   return (
     <li className="list-group-item">
       <p
+        data-testid='TodoListItemDesc'
         className={`${todo.done && "complete"}`}
         onClick={() => handleToggle(todo.id)}
       >
         {index + 1}. {todo.desc}
       </p>
       <button
+        data-testid='TodoListItemBtn'
         className="btn btn-danger"
         onClick={() => handleDelete(todo.id)}
       >
