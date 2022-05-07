@@ -3,6 +3,7 @@
 exports[`Test <TodoListItem /> should render correctly 1`] = `
 <li
   className="list-group-item"
+  data-testid="TodoListItem"
 >
   <p
     className="false"

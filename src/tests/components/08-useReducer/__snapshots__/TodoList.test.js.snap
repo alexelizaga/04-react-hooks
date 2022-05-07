@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <TodoList /> should render correctly 1`] = `
+<ul
+  className="list-group list-group-flush"
+>
+  <li
+    className="list-group-item"
+    data-testid="TodoListItem"
+  >
+    <p
+      className="false"
+      data-testid="TodoListItemDesc"
+      onClick={[Function]}
+    >
+      1
+      . 
+      Aprender React
+    </p>
+    <button
+      className="btn btn-danger"
+      data-testid="TodoListItemBtn"
+      onClick={[Function]}
+    >
+      Borrar
+    </button>
+  </li>
+  <li
+    className="list-group-item"
+    data-testid="TodoListItem"
+  >
+    <p
+      className="false"
+      data-testid="TodoListItemDesc"
+      onClick={[Function]}
+    >
+      2
+      . 
+      Aprender Mongo
+    </p>
+    <button
+      className="btn btn-danger"
+      data-testid="TodoListItemBtn"
+      onClick={[Function]}
+    >
+      Borrar
+    </button>
+  </li>
+</ul>
+`;

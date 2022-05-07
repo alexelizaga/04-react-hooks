@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export const TodoListItem = ({ index, todo, handleToggle, handleDelete }) => {
   return (
-    <li className="list-group-item">
+    <li data-testid='TodoListItem' className="list-group-item">
       <p
         data-testid='TodoListItemDesc'
         className={`${todo.done && "complete"}`}
