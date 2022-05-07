@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import { useForm } from '../../hooks/useForm';
 
@@ -26,8 +27,9 @@ export const TodoAdd = ({ handleAddTodo }) => {
     <>
       <h4>Agregar TODO</h4>
       <hr />
-      <form onSubmit={handleSubmit}>
+      <form data-testid='TodoAddForm' onSubmit={handleSubmit}>
         <input
+          data-testid='TodoAddInput'
           type='text'
           name='description'
           placeholder='Aprender ...'
@@ -45,3 +47,7 @@ export const TodoAdd = ({ handleAddTodo }) => {
     </>
   )
 };
+
+TodoAdd.propTypes = {
+  handleAddTodo: PropTypes.func.isRequired,
+}
