@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <LoginScreen/> should render correctly 1`] = `
+<div>
+  <h1>
+    LoginScreen
+  </h1>
+  <hr />
+  <button
+    className="btn btn-primary"
+    data-testid="LoginScreenBtn"
+    onClick={[Function]}
+  >
+    Login
+  </button>
+</div>
+`;

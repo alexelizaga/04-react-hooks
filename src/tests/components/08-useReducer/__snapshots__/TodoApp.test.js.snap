@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <TodoApp /> should render correly 1`] = `
+<div>
+  <h1
+    data-testid="TodoAppTitle"
+  >
+    TodoApp (
+    0
+    )
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-7"
+    >
+      <ul
+        className="list-group list-group-flush"
+      />
+    </div>
+    <div
+      className="col-5"
+    >
+      <h4>
+        Agregar TODO
+      </h4>
+      <hr />
+      <form
+        data-testid="TodoAddForm"
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          data-testid="TodoAddInput"
+          name="description"
+          onChange={[Function]}
+          placeholder="Aprender ..."
+          type="text"
+          value=""
+        />
+        <button
+          className="btn btn-outline-primary mt-1 btn-block"
+          type="submit"
+        >
+          Agregar
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;
